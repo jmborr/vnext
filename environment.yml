@@ -1,19 +1,22 @@
-name: mypythonapp
+name: vnext-dev
 channels:
   - conda-forge
 dependencies:
   # -- Runtime dependencies
   # base: list all base dependencies here
-  - python>=3.8  # please specify the minimum version of python here
+  - python>=3.10
   - versioningit
+  - argcomplete
   # compute: list all compute dependencies here
   - numpy
   - pandas
+  - h5py
+  - mpi4py
   # plot: list all plot dependencies here, if applicable
   - matplotlib
   # jupyter: list all jupyter dependencies here, if applicable
-  - jupyterlab
-  - ipympl
+  #- jupyterlab
+  #- ipympl
   # -- Development dependencies
   # utils:
   - pre-commit
@@ -39,6 +42,5 @@ dependencies:
   # --------------------------------------------------
   # if packages are not available on conda, list them here
   - pip
-  - pip:
-    - bm3d-streak-removal # example
-    - pytest-playwright
+  #- pip:
+  #  - bm3d-streak-removal # example
