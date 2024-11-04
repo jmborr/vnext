@@ -1,7 +1,7 @@
 VNEXT
 =====
 
-Exploration ((EWM 7563](chttps://ornlrse.clm.ibmcloud.com/ccm/web/projects/Neutron%20Data%20Project%20%28Change%20Management%29#action=com.ibm.team.workitem.viewWorkItem&id=7563)) of fast reduction of VULCAN data
+Exploration ([EWM 7563](chttps://ornlrse.clm.ibmcloud.com/ccm/web/projects/Neutron%20Data%20Project%20%28Change%20Management%29#action=com.ibm.team.workitem.viewWorkItem&id=7563)) of fast reduction of VULCAN data
 
 
 Development environment setup
@@ -41,7 +41,6 @@ The following runs were tried in analysis-node01.sns.gov using calibration file
 | 12       |   91     |
 | 18       |   80     |
 | 24       |   82     |
-| 30       |          |
 
 - 61GB /SNS/VULCAN/IPTS-28883/nexus/VULCAN_217914.nxs.h5
 
